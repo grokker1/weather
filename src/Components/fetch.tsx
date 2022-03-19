@@ -9,7 +9,8 @@ const Fetch = () => {
       setLatitude(position.coords.latitude);
     });
     fetch(
-      `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longtitude}&exclude=hourly,daily&appid=e601b4cd391fbd156500746c5483e624`
+      `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longtitude}&exclude=hourly,daily&appid=4d20d8eee158a891dbf179a0c800b680
+      `
     )
       .then((response) => response.json())
       .then((data) => {
@@ -23,6 +24,7 @@ const Fetch = () => {
     <div>
       Longtitude = {longtitude} <br />
       Latitude = {latitude}
+      <br />
       Weather data = {JSON.stringify(weatherData)}
     </div>
   );
