@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Fetch from "./Components/fetch";
+import Fetch from "./Components/fetchWeatherData";
 
 function App() {
   return (
@@ -11,4 +11,6 @@ function App() {
   );
 }
 
+// ask how to in fetchWeatherData put useState to non 0, so that
+// i dont have to use the IF statement
 export default App;
