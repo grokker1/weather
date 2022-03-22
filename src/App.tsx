@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
 import Fetch from "./Components/fetchWeatherData";
 
@@ -11,6 +11,6 @@ function App() {
   );
 }
 
-// ask how to in fetchWeatherData put useState to non 0, so that
-// i dont have to use the IF statement
+//Prague
+//https://api.openweathermap.org/data/2.5/onecall?lat=49.779572&lon=18.1269703&exclude=hourly,daily,minutely&appid=4d20d8eee158a891dbf179a0c800b680
 export default App;

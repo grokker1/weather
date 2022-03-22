@@ -8,6 +8,7 @@ const WeatherCard = (props: any) => {
   }
   console.log(weatherData);
   console.log();
+
   return (
     <div>
       <br /> {/*delete late*/}
